@@ -24,12 +24,10 @@ class DatabaseHelper {
   }
 
   Future _createDB(Database db, int version) async {
-    await db.execute('''
-CREATE TABLE images (
-  id TEXT PRIMARY KEY,
-  path TEXT
-)
-''');
+    await db.execute(
+      ''''''
+    );
+
   }
 
   Future<void> insertImage(EditedImage image) async {

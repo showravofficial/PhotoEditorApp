@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => ImageProviderClass(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Photo Editor App',
         theme: ThemeData(
           primarySwatch: Colors.blue,
