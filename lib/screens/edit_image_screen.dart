@@ -19,7 +19,7 @@ class EditImageScreen extends StatelessWidget {
   }
 
   Future<void> _rotateImage(BuildContext context) async {
-    // Implement rotation logic here.
+    
   }
 
   @override
